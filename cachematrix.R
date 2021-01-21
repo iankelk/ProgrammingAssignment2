@@ -1,5 +1,5 @@
 ## These functions are for storing matrixes and caching their inverses.
-## Week 3 Assignment for Coursera Data Science: R Programming
+## Week 3 Assignment for Coursera Data Science: R Programming.
 
 ## Create a special matrix which can cache its inverse 
 makeCacheMatrix <- function(x = matrix()) {
@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Returns the inverse of the matrix store by makeCacheMatrix. Calculates
 ## the inverse of the matrix, or if it has already been solved, returns
-## the caches inverse
+## the cached inverse
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inv <- x$getinverse()
